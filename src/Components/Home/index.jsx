@@ -9,6 +9,8 @@ export default function Home() {
       {/* <Menu /> */}
       <Inicio />
       <Carousel />
+      <Carousel />
+
 
     </div >
 

@@ -1,5 +1,6 @@
 import { Paj } from "../styled";
 import { Link } from "react-router-dom";
+import Carousel from "../../Carousel";
 
 export default function Paj4() {
 
@@ -12,6 +13,7 @@ export default function Paj4() {
         </Link>
 
         <h1>Paj4</h1>
+        <Carousel />
       </div>
 
     </Paj>
