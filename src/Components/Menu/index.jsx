@@ -51,7 +51,7 @@ export default function Menu() {
               </Link>
 
               <Link to={'/a1'} >
-                <li>Menu5</li>
+                <li>Contato</li>
               </Link>
 
 
