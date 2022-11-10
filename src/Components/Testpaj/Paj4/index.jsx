@@ -13,6 +13,7 @@ export default function Paj4() {
         </Link>
 
         <h1>Paj4</h1>
+        <h2>ZAP: (74)999 999-999</h2>
         <Carousel />
       </div>
 

@@ -12,6 +12,7 @@ export default function Paj2() {
         </Link>
 
         <h1>Paj2</h1>
+        <img src="./static/images/icon/android-chrome-512x512.png" alt="" />
       </div>
 
     </Paj>
