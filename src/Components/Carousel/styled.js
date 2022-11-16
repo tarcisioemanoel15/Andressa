@@ -22,7 +22,7 @@ font-family: Dancingenne;
 }
 
 .containerr {
-  width: 87%;
+  width: 100%;
   margin: auto;
   height: 60%;
   text-align: center;
@@ -67,7 +67,7 @@ font-family: Dancingenne;
 
 .item .foto img {
 
-  width: 75%;
+  width: 60%;
   max-height: 200px;
   border-radius: 10px;
 }
@@ -95,9 +95,13 @@ font-family: Dancingenne;
 
 }
 
+.buttons button img{
+  width: 25px;
+}
+
 .buttons button:first-child {
   position: absolute;
-  left: 0;
+  left: 13px;
   top: 83px;
   height: 72%;
 
@@ -110,10 +114,30 @@ font-family: Dancingenne;
   position: absolute;
   right: 0;
   top: 83px;
-
   height: 72%;
 }
 
 
 
+
+
+
+@media screen and (max-width:600px){
+  .buttons button img{
+    width: 20px;
+    background-color:#f0f8ff6e;
+    border-radius: 50%;
+  }
+
+  .buttons button {
+  background-color:transparent;
+}
+
+.buttons button:first-child {
+  position: absolute;
+  left: 10px;
+  top: 83px;
+  height: 72%;
+}
+}
 `; 

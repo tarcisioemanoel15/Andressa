@@ -6,6 +6,7 @@ width: 100%;
 padding: 10px;
 font-family: Arial, Helvetica, sans-serif;
 background-color: palevioletred;
+font-size: 5px;
 
 display: flex;
 justify-content: center;
@@ -18,7 +19,7 @@ align-items: center;
 gap: 15px;
 }
 
-.footerImg{
+.footerImg img{
 height: 35px;
 width: 35px;
 background-color: green;
