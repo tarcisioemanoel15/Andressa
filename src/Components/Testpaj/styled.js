@@ -20,7 +20,7 @@ export const Paj = styled.div`
   background-color: red;
 }
 
-.paj4{
+.contato{
   width: 100%;
   height: 100vh;
   background-color: black;
@@ -28,7 +28,7 @@ export const Paj = styled.div`
 }
 
 .paj1, .paj2, 
-.paj3, .paj4{
+.paj3, .contato{
 
   padding-top: 80px;
 

@@ -38,6 +38,10 @@ export default function Menu() {
                 <li>Inicio</li>
               </Link>
 
+              <Link to={'/a1'} >
+                <li>Menu1</li>
+              </Link>
+
               <Link to={'/a2'} >
                 <li>Menu2</li>
               </Link>
@@ -46,11 +50,7 @@ export default function Menu() {
                 <li>Menu3</li>
               </Link>
 
-              <Link to={'/a4'} >
-                <li>Menu4</li>
-              </Link>
-
-              <Link to={'/a1'} >
+              <Link to={'/contato'} >
                 <li>Contato</li>
               </Link>
 
