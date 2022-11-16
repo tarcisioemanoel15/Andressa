@@ -12,6 +12,7 @@ font-family: Dancingenne;
 .caixa {
   text-align: center;
   margin-left: -14px;
+  position: relative;
 }
 
 .caixa h1 {
@@ -21,7 +22,8 @@ font-family: Dancingenne;
 }
 
 .containerr {
-  width: 100%;
+  width: 87%;
+  margin: auto;
   height: 60%;
   text-align: center;
   padding: 15px;
@@ -81,15 +83,37 @@ font-family: Dancingenne;
 }
 
 .buttons button {
-  background-color: transparent;
+  background-color:#e794e2;
+
   border: none;
   cursor: pointer;
+  transition: all 2s;
+  // border-radius: 20px;
+}
+.buttons button:hover{
+  background-color:#dd4fd4;
 
 }
 
 .buttons button:first-child {
+  position: absolute;
+  left: 0;
+  top: 83px;
+  height: 72%;
+
   transform: rotate(180deg);
 }
 
+  
 
-  `; 
+.buttons button:last-child{
+  position: absolute;
+  right: 0;
+  top: 83px;
+
+  height: 72%;
+}
+
+
+
+`; 

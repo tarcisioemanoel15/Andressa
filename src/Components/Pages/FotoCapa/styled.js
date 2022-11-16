@@ -20,7 +20,7 @@ justify-content: center;
 justify-content: space-around;
 align-items: center;
 width: 100%;
-height: 100vh;
+/* height: 100vh; */
 padding: 20px;
 
 .FCapa img{
