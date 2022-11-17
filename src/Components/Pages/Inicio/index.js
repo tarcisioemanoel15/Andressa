@@ -29,7 +29,7 @@ export default function Inicio() {
           <div onClick={() => setModalVisible(true)}>
             <h6>ID: 1</h6>
             <img src={Tiara1} alt="erroTiara" />
-            <span>R$: 50,00</span>
+            <span>R$: 30,00</span>
           </div>
 
           <div onClick={() => setModalVisible1(true)}>
@@ -46,9 +46,6 @@ export default function Inicio() {
 
         </article>
 
-
-
-
         {isModalVisible ? (
           <Modal onClose={() => { setModalVisible(false) }}>
             <img src={Tiara01} alt="erroTiara" />
@@ -61,22 +58,13 @@ export default function Inicio() {
           </Modal>
         ) : null}
 
-
-
-
         {isModalVisible2 ? (
           <Modal onClose={() => { setModalVisible2(false) }}>
             <img src={Tiara03} alt="erroTiara" />
           </Modal>
         ) : null}
 
-
-
-
-
       </FundoImg>
-
     </div >
   );
-
 }

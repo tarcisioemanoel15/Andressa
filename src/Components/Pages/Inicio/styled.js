@@ -4,7 +4,6 @@ import milpxfundo1 from "../img/1000pxfundo1.jpg";
 import milpxfundo2 from "../img/500pxfundo1.jpg";
 import milpxfundo3 from "../img/1fundopequeno.jpg";
 
-
 export const FundoImg = styled.article`
 
 @font-face {
@@ -24,7 +23,6 @@ width: 100%;
 /* height: 95vh; */
 
 .title{
-
     position: absolute;
     width: 250px;
     text-align: center;
@@ -32,9 +30,9 @@ width: 100%;
     justify-items: center;
     left: 24%;
     top: 217px;
-    align-items: center;
-    
+    align-items: center;  
   }
+
   .title h1{
   color: #dd9177;
   font-size: 45px;
@@ -47,15 +45,10 @@ width: 100%;
   }
   .title h1{
   font-size: 30px;
-
-  }
-  
+  } 
 }
-
 article{
-  /* background-color: #ff41ff73; */
   width: 300px;
-  /* height: 85%; */
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -63,7 +56,6 @@ article{
   justify-content: center;
   margin-left: 30px;
   border-radius: 40px 0px 40px 0px;
-  /* gap: 32px */
 }
 
 article div{
@@ -76,7 +68,6 @@ article div{
 article div img{
   width: 150px;
 }
-
 
 article div span{
   width: 100%;
@@ -109,11 +100,9 @@ article div span{
       top: 100px;
     }
     .title h1{
-    font-size: 30px;
-  
+    font-size: 30px; 
     }
-  
- }
+   }
  
  @media screen and (max-width: 590px){
     background-image: url(${milpxfundo3});

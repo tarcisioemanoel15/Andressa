@@ -11,7 +11,7 @@ export default function Contato() {
 
         <h1>Contato</h1>
 
-        <h2>ZAP: (74)999 999-999</h2>
+        <h2>(74)999 999-999</h2>
         <Carousel />
 
 

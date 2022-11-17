@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-
 export const Menue = styled.header`
-
 
 @font-face {
   font-family: parisienne ;
@@ -47,8 +45,6 @@ header .iconLogo img{
     margin-top: 50px;
     transform: rotate(360deg);
   }
-
-
 
 nav ul {
   display: flex;
@@ -130,7 +126,6 @@ nav ul {
     transition: all 2s;
     padding-top: 10px;
     padding-bottom: 10px;
-
   }
 
   li,
@@ -141,7 +136,5 @@ nav ul {
   .nave ul {
     display: grid;
   }
-
-
 }
 `;

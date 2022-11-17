@@ -20,6 +20,7 @@ font-family: Arial, Helvetica, sans-serif;
   border-radius: 20px;
   box-shadow: 0px 0px 8px floralwhite;
 }
+
 .container div{
   width: 30%;
   margin: auto;
@@ -33,10 +34,7 @@ font-family: Arial, Helvetica, sans-serif;
   font-size: 155%;
 }
 
-
-
 @media screen and (max-width: 590px){
-
   .container{
     display: block;
   }

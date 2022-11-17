@@ -11,9 +11,8 @@ export const Fotocapa = styled.article`
   font-family: Parisienne;
 }
 .tituloDaCapa p{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Parisienne;
 }
-
 
 display: flex;
 justify-content: center;
@@ -28,12 +27,12 @@ padding: 20px;
   border-radius: 0px 50px 0px 120px;
 }
 
-
-
 .tituloDaCapa{
-  width: 15%;
+  width: 25%;
 }
-
+.tituloDaCapa p, h1{
+  font-size: 40px;
+}
 
 @media screen and (max-width:950px){
 .FCapa img{
@@ -42,17 +41,14 @@ padding: 20px;
 }
 
 .tituloDaCapa{
-  width: 35%;
+  width: 55%;
 }
 
 @media screen and (max-width:600px){
   flex-flow: column-reverse;
-
   
 .tituloDaCapa{
-  width: 50%;
+  width: 80%;
 }
-
 }
-
 `;

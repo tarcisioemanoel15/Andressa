@@ -18,8 +18,7 @@ font-family: Dancingenne;
 .caixa h1 {
   font-size: 50px;
   color: #ff41ff73;
-  
-}
+  }
 
 .containerr {
   width: 100%;
@@ -64,9 +63,7 @@ font-family: Dancingenne;
   border-radius: 10px;
 }
 
-
 .item .foto img {
-
   width: 60%;
   max-height: 200px;
   border-radius: 10px;
@@ -92,7 +89,6 @@ font-family: Dancingenne;
 }
 .buttons button:hover{
   background-color:#dd4fd4;
-
 }
 
 .buttons button img{
@@ -104,11 +100,8 @@ font-family: Dancingenne;
   left: 13px;
   top: 83px;
   height: 72%;
-
   transform: rotate(180deg);
 }
-
-  
 
 .buttons button:last-child{
   position: absolute;
@@ -116,11 +109,6 @@ font-family: Dancingenne;
   top: 83px;
   height: 72%;
 }
-
-
-
-
-
 
 @media screen and (max-width:600px){
   .buttons button img{

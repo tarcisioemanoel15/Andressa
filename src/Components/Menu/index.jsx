@@ -12,15 +12,10 @@ export default function Menu() {
   }
 
   return (
-
     <div className="containner">
-
-
-
       <Menue>
 
         <header>
-
 
           <Link to={'/'}>
             <div className="iconLogo">
@@ -28,10 +23,7 @@ export default function Menu() {
             </div>
           </Link>
 
-
-
           <nav className={active ? "menu menuOpen" : "menu menuClos"}>
-
 
             <ul className='listItens'>
               <Link to={'/'}>
@@ -51,12 +43,10 @@ export default function Menu() {
               </Link>
 
               <Link to={'/contato'} >
-                <li>Contato</li>
+                <li>Menu4</li>
               </Link>
 
-
             </ul>
-
           </nav>
           {/* instalar npm install react-icons */}
 

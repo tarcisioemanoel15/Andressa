@@ -5,7 +5,7 @@ import Home from "./Components/Home";
 import Menu from "./Components/Menu";
 
 
-import Paj1 from "./Components/Pages/Footer";
+import Paj1 from "./Components/Testpaj/Paj1";
 import Paj2 from "./Components/Testpaj/Paj2";
 import Paj3 from "./Components/Testpaj/Paj3";
 import Contato from "./Components/Testpaj/Contato";

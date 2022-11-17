@@ -3,8 +3,8 @@ import { Carousell } from "./styled";
 
 function Carousel() {
   const [data, setData] = useState(null);
-
   const carouusel = useRef();
+
   useEffect(() => {
     fetch('./static/images/01/tiaras.json')
       .then(response => response.json())
@@ -26,10 +26,8 @@ function Carousel() {
   return (
     <Carousell>
       <div className="caixa">
-
         <h1>Tiaras</h1>
         <div className="containerr" ref={carouusel}>
-
           {data.map((item) => {
             const { id, image, price } = item;
             return (
@@ -39,7 +37,6 @@ function Carousel() {
                     {/* <a href={imageM}> */}
                     <img src={image} alt="Tara1" />
                     {/* </a> */}
-
                   </div>
                   <h5>R$: {price}</h5>
                   <p>id: {id}</p>
@@ -48,18 +45,11 @@ function Carousel() {
             );
           })}
         </div>
-
-
-
         <div className="buttons">
           <button onClick={handleDireitaClick}> <img src="./static/images/seta.png" alt="direita" /> </button>
           <button onClick={handleEsquerdaaClick}> <img src="./static/images/seta.png" alt="esquerda" /> </button>
         </div>
-
-
       </div>
-
-
     </Carousell>
   );
 }

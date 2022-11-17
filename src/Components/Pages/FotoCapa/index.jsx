@@ -1,20 +1,16 @@
 import { Fotocapa } from "./styled";
 import Proprietaria from "./img/Proprietaria.png";
-// import Tiara from "./img/tiara-192x192.png";
-
 
 function FotoCapa() {
   return (
     <Fotocapa>
-
-
-
       {/* <div className="container"> */}
 
       <div className="tituloDaCapa">
-        <h1>Titulo</h1>
+        <h1>Salmo 125:1</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, possimus facilis facere fuga soluta voluptatem ducimus optio saepe ea pariatur provident iste incidunt. Vero expedita commodi, a eligendi aliquid obcaecati.
+          Aqueles que confiam no Senhor são como o monte Sião,
+          que não pode ser abalado, mas permanece para sempre.
         </p>
 
       </div>
