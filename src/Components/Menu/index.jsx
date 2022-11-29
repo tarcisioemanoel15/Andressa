@@ -35,7 +35,7 @@ export default function Menu() {
               </Link>
 
               <Link to={'/a2'} >
-                <li>Menu2</li>
+                <li>Grampos</li>
               </Link>
 
               <Link to={'/a3'} >

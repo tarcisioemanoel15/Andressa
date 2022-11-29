@@ -7,12 +7,12 @@ export const Paj = styled.div`
   height: 100vh;
   background-color: red;
 }
-
+/* 
 .paj2{
   width: 100%;
   height: 100vh;
   background-color: blue;
-}
+} */
 
 .paj3{
   width: 100%;
@@ -27,7 +27,7 @@ export const Paj = styled.div`
   color: white;
 }
 
-.paj1, .paj2, 
+.paj1,  
 .paj3, .contato{
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 80px;

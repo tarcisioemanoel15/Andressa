@@ -9,7 +9,7 @@ width: 100%;
 height: 100vh;
 top: 0px;
 left: 0;
-z-index: 0;
+z-index: 1;
 background-color: rgba(0,0,0,0.8);
 display: flex;
 justify-content: center;
@@ -19,8 +19,8 @@ position: fixed;
 
 .container{
   background-color: #4e4949db;
-  width: 75%;
-  height: 50%;
+  width: 85%;
+  height: 95%;
   color: black;
   border-radius: 20px;
 
