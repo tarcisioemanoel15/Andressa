@@ -20,7 +20,7 @@ position: fixed;
 .container{
   background-color: #4e4949db;
   width: 85%;
-  height: 95%;
+  height: 75%;
   color: black;
   border-radius: 20px;
 
@@ -35,7 +35,8 @@ justify-content: center;
 }
 
 .container .content img{
-  margin-top: -35px;
+  /* margin-top: -35px; */
+  margin-bottom: 205px;
   width: 80%;
   
 }
@@ -44,6 +45,7 @@ justify-content: center;
   color: wheat;
   border: none;
   font-size: 120%;
+  margin: 10px;
   outline: none;
   width: 30px;
   height: 32px;

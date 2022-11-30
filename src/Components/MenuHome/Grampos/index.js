@@ -206,7 +206,7 @@ export default function Grampos() {
       {
         isModalVisible11 ? (
           <Modal onClose={() => { setModalVisible11(false) }}>
-            <img height="460px" src={mise1} alt="erroTiara" />
+            <img height="400px" src={mise1} alt="erroTiara" />
           </Modal>
         ) : null
       }
@@ -214,7 +214,7 @@ export default function Grampos() {
       {
         isModalVisible12 ? (
           <Modal onClose={() => { setModalVisible12(false) }}>
-            <img height="460px" src={mise3} alt="erroTiara" />
+            <img height="400px" src={mise3} alt="erroTiara" />
           </Modal>
         ) : null
       }
@@ -222,7 +222,7 @@ export default function Grampos() {
       {
         isModalVisible13 ? (
           <Modal onClose={() => { setModalVisible13(false) }}>
-            <img height="460px" src={mise4} alt="erroTiara" />
+            <img height="400px" src={mise4} alt="erroTiara" />
           </Modal>
         ) : null
       }

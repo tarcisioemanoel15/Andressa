@@ -119,7 +119,7 @@ nav ul {
   ul.listItens {
     position: absolute;
     margin-top: 25px;
-    background-color: #fafafadb;
+    background-color: #fafafa;
     display: grid;
     width: 100%;
     right: 0;
