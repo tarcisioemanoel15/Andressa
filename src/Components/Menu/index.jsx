@@ -31,7 +31,7 @@ export default function Menu() {
               </Link>
 
               <Link to={'/a1'} >
-                <li>Menu1</li>
+                <li>Tiaras</li>
               </Link>
 
               <Link to={'/a2'} >

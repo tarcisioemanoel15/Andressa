@@ -5,7 +5,7 @@ import Home from "./Components/Home";
 import Menu from "./Components/Menu";
 
 
-import Paj1 from "./Components/MenuHome/Paj1";
+import Paj1 from "./Components/MenuHome/Tiaras";
 import Paj2 from "./Components/MenuHome/Grampos";
 import Paj3 from "./Components/MenuHome/Paj3";
 import Contato from "./Components/MenuHome/Contato";
