@@ -2,7 +2,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Components/Home";
-import Menu from "./Components/Menu";
+// import Menu from "./Components/Menu";
+import MenuSimples from './Components/MenuSimples';
 
 
 import Paj1 from "./Components/MenuHome/Tiaras";
@@ -15,7 +16,8 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Menu />
+      {/* <Menu /> */}
+      <MenuSimples />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/a1' element={<Paj1 />} />
