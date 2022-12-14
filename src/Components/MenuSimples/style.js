@@ -7,10 +7,24 @@ export const Menue = styled.header`
   src: url('./static/fonts/Parisienne/Parisienne-Regular.ttf');
 };
 
+@font-face {
+  font-family: Macondo;
+  src: url('./static/fonts/Macondo/Macondo-Regular.ttf');
+};
 
+@font-face {
+  font-family: Rochester;
+  src: url('./static/fonts/Rochester/Rochester-Regular.ttf');
+};
 
 nav ul {
   display: flex;
+}
+
+
+nav ul li{
+font-family: Macondo;
+  font-size: 30px;
 }
 
  li{
@@ -25,7 +39,6 @@ a{
 
 a:hover{
   color: blue;
-
   text-decoration: underline;
 }
 
@@ -82,8 +95,8 @@ header .iconLogo img{
         width: 40px;
     }
  
-    nav ul li{
+    /* nav ul li{
     font-size: 70%;
-    }
+    } */
   }
 `;

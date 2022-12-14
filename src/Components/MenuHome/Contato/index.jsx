@@ -1,26 +1,18 @@
 import { Paj } from "../styled";
-import { Link } from "react-router-dom";
 import Carousel from "../../Carousel";
 
 export default function Contato() {
 
   return (
-    <Paj>
+    <div className="containerContato">
+      <Paj>
+        <div className="contato">
+          <h1>Contato:(74)999 074904</h1>
+          {/* ADD MAIS COISAS */}
+        </div>
+      </Paj>
 
-      <div className="contato">
-
-        <h1>Contato</h1>
-
-        <h2>(74)999 999-999</h2>
-        <Carousel />
-
-
-        <Link to={'/'}>
-          <button>Voltar</button>
-        </Link>
-
-      </div>
-
-    </Paj>
+      <Carousel />
+    </div>
   );
 }

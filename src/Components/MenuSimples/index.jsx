@@ -31,13 +31,13 @@ export default function MenuSimples() {
                 <li>Grampos</li>
               </Link>
 
-              <Link to={'/a3'} >
-                <li>Menu3</li>
-              </Link>
+              {/* <Link to={'/a3'} >
+                <li>XX</li>
+              </Link> */}
 
-              <Link to={'/contato'} >
-                <li>Menu4</li>
-              </Link>
+              {/* <Link to={'/contato'} >
+                <li>XX</li>
+              </Link> */}
 
             </ul>
           </nav>

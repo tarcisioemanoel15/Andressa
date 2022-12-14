@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const Paj = styled.div`
+@font-face {
+  font-family: Macondo;
+  src: url('./static/fonts/Macondo/Macondo-Regular.ttf');
+};
 
 .containerTiaras{
   width: 100%;
@@ -8,6 +12,10 @@ export const Paj = styled.div`
   color: black;
   text-align: center;
 
+}
+
+.containerTiaras h1{
+  font-family: Macondo;
 }
 
 .containerImg{
@@ -41,28 +49,27 @@ export const Paj = styled.div`
 
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-/* 
-.paj2{
-  width: 100%;
-  height: 100vh;
-  background-color: blue;
-} */
-
 
 
 
 
 .paj3{
+  text-align: center;
   width: 100%;
   height: 100vh;
-  background-color: red;
+  background-image: url('./static/images/01/Original/0.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
 }
-
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 .contato{
   width: 100%;
-  height: 100vh;
   background-color: black;
   color: white;
+  text-align: center;
+  
 }
 
 .containerTiaras,  

@@ -7,11 +7,16 @@ export const Fotocapa = styled.article`
   src: url('./static/fonts/Parisienne/Parisienne-Regular.ttf');
 }
 
+@font-face {
+  font-family: Macondo;
+  src: url('./static/fonts/Macondo/Macondo-Regular.ttf');
+};
+
 .tituloDaCapa h1{
-  font-family: Parisienne;
+  font-family: Macondo;
 }
 .tituloDaCapa p{
-  font-family: Parisienne;
+  font-family: Macondo;
 }
 
 display: flex;

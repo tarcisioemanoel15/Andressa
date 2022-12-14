@@ -6,6 +6,10 @@ export const Carousell = styled.div`
   font-family: Dancingenne;
   src: url('./static/fonts/Parisienne/Parisienne-Regular.ttf');
 }
+@font-face {
+  font-family: Macondo;
+  src: url('./static/fonts/Macondo/Macondo-Regular.ttf');
+};
 
 font-family: Dancingenne;
 
@@ -18,6 +22,7 @@ font-family: Dancingenne;
 .caixa h1 {
   font-size: 50px;
   color: #ff41ff73;
+  font-family: Macondo;
   }
 
 .containerr {

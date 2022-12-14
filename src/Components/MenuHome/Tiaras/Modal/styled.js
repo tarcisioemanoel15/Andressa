@@ -26,7 +26,7 @@ justify-content: center;
 
 .container .content img{
    width: 90%;
-   height: 90vh;
+   height: 70vh;
   border-radius: 15px;
 }
 
