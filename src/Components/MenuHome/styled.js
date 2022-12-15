@@ -16,6 +16,7 @@ export const Paj = styled.div`
 
 .containerTiaras h1{
   font-family: Macondo;
+  margin-top: 25px;
 }
 
 .containerImg{
